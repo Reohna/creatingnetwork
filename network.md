@@ -66,7 +66,7 @@
 		-
 		-
 		-
-		- log sylog all;
+		- log syslog all;
 		- router id 10.20.30.[number];
 		- protocol device
 		-
