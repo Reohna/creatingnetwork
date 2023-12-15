@@ -40,7 +40,7 @@
 			- `sudo vim /etc/bird.conf`
 				-
 				  ```
-				  log sylog all;
+				  log syslog all;
 				  router id 10.20.30.[number];
 				  protocol device{}
 				  
@@ -63,14 +63,4 @@
 				- `sudo systemctl start bird.service` and ` sudo systemctl enable bird.service`
 				-
 			-
-		-
-		-
-		-
-		- log syslog all;
-		- router id 10.20.30.[number];
-		- protocol device
-		-
-		- ```
-		-
-		-
-	-
+		
